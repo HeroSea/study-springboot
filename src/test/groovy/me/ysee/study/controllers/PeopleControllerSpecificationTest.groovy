@@ -20,9 +20,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /**
  * Created by herosea on 16/8/18.
+ * 参考 http://www.jianshu.com/p/f1e354d382cd
+ *
+ * 名字Test结尾, mvn test 才默认会执行
  */
 @SpringBootTest
-class PeopleControllerSpecification extends Specification {
+class PeopleControllerSpecificationTest extends Specification {
 
     @Shared
     boolean sharedSetupDone = false;
