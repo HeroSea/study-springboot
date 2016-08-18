@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<description>Spring Boot 学习项目</description>
+	<description>Spring Boot study project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
